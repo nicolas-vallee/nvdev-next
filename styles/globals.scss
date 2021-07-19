@@ -1,8 +1,45 @@
 @import 'normalize.css';
+@import 'variables';
+@import 'mixins';
 
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: $color-text-heading;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-transform: capitalize;
+
+  @include respond-to('lg') {
+    font-size: 3rem;
+    line-height: 4.5rem;
+  }
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.625rem;
+  line-height: 2.5rem;
+  text-transform: capitalize;
+
+  @include respond-to('lg') {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
 }
