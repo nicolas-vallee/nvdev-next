@@ -7,6 +7,7 @@ const TextContent = (props) => {
       className={cn(styles.textContent, {
         col3lg: props.col3lg,
         col4lg: props.col4lg,
+        [styles.centered]: props.centered,
       })}
     >
       {props.children}

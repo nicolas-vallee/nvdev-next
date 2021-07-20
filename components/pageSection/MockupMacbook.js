@@ -9,7 +9,7 @@ const MockupMacbook = (props) => {
         layout='fill'
         objectFit='contain'
       />
-      <video src={props.src} width='380px' controls autoplay muted loop>
+      <video src={props.src} width='380px' controls autoPlay muted loop>
         This video is not supported by your browser.
       </video>
     </div>

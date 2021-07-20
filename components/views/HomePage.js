@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import PageSection from '../pageSection/PageSection';
 import TextContent from '../pageSection/TextContent';
 import VisualContent from '../pageSection/VisualContent';
@@ -7,6 +8,46 @@ import MockupIphone from '../pageSection/MockupIphone';
 const HomePage = () => {
   return (
     <main>
+      <PageSection>
+        <TextContent col4lg centered>
+          <p>
+            Expanding your front-end team? Looking for a pragmatic problem
+            solver passionate about personal growth?
+          </p>
+          <p>
+            I’m a self-taught developer specialized in React. And I’m a lot more
+            than that!
+          </p>
+          <p>
+            This short video{' '}
+            <span style={{ backgroundColor: 'yellow' }}>(xx min)</span> goes
+            over <strong>what I can do for you:</strong>
+          </p>
+          <span style={{ backgroundColor: 'yellow' }}>
+            Insert the video here...
+          </span>
+          <p>
+            Want to know more about my technical skills? Keep reading below.
+            More interested in who I am and my story? Head over to the{' '}
+            <Link href='/about'>
+              <a>About Me</a>
+            </Link>{' '}
+            page. Jump straight to{' '}
+            <Link href='/projects'>
+              <a>some projects I’ve done</a>
+            </Link>
+            , read about{' '}
+            <Link href='/blog'>
+              <a>some challenges I solved</a>
+            </Link>
+            , or{' '}
+            <Link href='/contact'>
+              <a>send me a message</a>
+            </Link>
+            .
+          </p>
+        </TextContent>
+      </PageSection>
       <PageSection lightBg>
         <TextContent col3lg>
           <h2>The modern workflow: building on solid foundations</h2>
