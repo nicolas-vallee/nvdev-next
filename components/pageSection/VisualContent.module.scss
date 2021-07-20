@@ -1,0 +1,23 @@
+@import '/styles/variables';
+@import '/styles/mixins';
+
+.visualContent {
+  .visualElementContainer {
+    width: 320px;
+    margin: 0 auto;
+
+    @include respond-to('lg') {
+      width: 100%;
+    }
+  }
+
+  .caption {
+    display: block;
+    margin-top: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: italic;
+    color: $color-text-caption;
+    text-align: center;
+  }
+}

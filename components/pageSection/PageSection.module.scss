@@ -17,7 +17,16 @@
 }
 
 .pageSection {
+  display: flex;
+  flex-direction: column;
+
   & h2 {
     margin-bottom: 2rem;
+  }
+
+  @include respond-to('lg') {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }

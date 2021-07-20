@@ -1,0 +1,29 @@
+@import '/styles/variables';
+@import '/styles/mixins';
+
+.mockup {
+  position: relative;
+  width: 320px;
+  height: 184px;
+
+  & video {
+    display: block;
+    position: absolute;
+    width: 246px;
+    height: 154px;
+    left: 37px;
+    top: 9px;
+  }
+
+  @include respond-to('lg') {
+    width: 496px;
+    height: 285px;
+
+    & video {
+      width: 380px;
+      height: 238px;
+      left: 58px;
+      top: 14px;
+    }
+  }
+}

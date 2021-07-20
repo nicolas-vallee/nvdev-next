@@ -43,3 +43,21 @@ h2 {
     line-height: 3rem;
   }
 }
+
+.col2lg {
+  @include respond-to('lg') {
+    width: 20rem;
+  }
+}
+
+.col3lg {
+  @include respond-to('lg') {
+    width: 31rem;
+  }
+}
+
+.col4lg {
+  @include respond-to('lg') {
+    width: 42rem;
+  }
+}

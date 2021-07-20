@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Header from '../components/header/Header';
 import PageSection from '../components/pageSection/PageSection';
 import TextContent from '../components/pageSection/TextContent';
+import VisualContent from '../components/pageSection/VisualContent';
+import MockupMacbook from '../components/pageSection/MockupMacbook';
 
 export default function Home() {
   return (
@@ -54,6 +56,14 @@ export default function Home() {
             <strong>Parcel</strong>.
           </p>
         </TextContent>
+        <VisualContent
+          col3lg
+          caption={`Landing page and modal contact form. Mobile-first design optimized
+        for performance. Built in September 2020 with Webpack using HTML,
+        PostCSS, and modern JavaScript.`}
+        >
+          <MockupMacbook src='/videos/Live Demo Clear View Escapes 380x238.mp4' />
+        </VisualContent>
       </PageSection>
     </div>
   );

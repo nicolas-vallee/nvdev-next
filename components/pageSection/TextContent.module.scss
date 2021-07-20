@@ -36,9 +36,3 @@
     color: $color-text-link--active;
   }
 }
-
-.col3lg {
-  @include respond-to('lg') {
-    width: 31rem;
-  }
-}

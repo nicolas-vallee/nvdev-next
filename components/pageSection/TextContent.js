@@ -5,7 +5,8 @@ const TextContent = (props) => {
   return (
     <div
       className={cn(styles.textContent, {
-        [styles.col3lg]: props.col3lg,
+        col3lg: props.col3lg,
+        col4lg: props.col4lg,
       })}
     >
       {props.children}
