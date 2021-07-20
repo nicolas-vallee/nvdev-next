@@ -1,4 +1,3 @@
-import cn from 'classnames';
 import Image from 'next/image';
 import styles from './MockupMacbook.module.scss';
 

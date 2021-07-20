@@ -29,6 +29,7 @@
   & a {
     text-decoration: underline;
     color: $color-text-link;
+    transition: color ease-out 0.3s;
   }
 
   & a:hover,
