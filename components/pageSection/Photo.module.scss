@@ -1,0 +1,16 @@
+@import '/styles/variables';
+@import '/styles/mixins';
+
+.photoContainer {
+  width: 320px;
+  height: 212px;
+
+  & img {
+    border-radius: 16px;
+  }
+
+  @include respond-to('lg') {
+    width: 496px;
+    height: 328px;
+  }
+}

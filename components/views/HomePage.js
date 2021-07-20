@@ -4,6 +4,8 @@ import TextContent from '../pageSection/TextContent';
 import VisualContent from '../pageSection/VisualContent';
 import MockupMacbook from '../pageSection/MockupMacbook';
 import MockupIphone from '../pageSection/MockupIphone';
+import Illustration from '../pageSection/Illustration';
+import Photo from '../pageSection/Photo';
 
 const HomePage = () => {
   return (
@@ -164,6 +166,147 @@ const HomePage = () => {
         >
           <MockupIphone src='/videos/Live Demo Sweet Tooth 210x452.mp4' />
         </VisualContent>
+      </PageSection>
+      <PageSection>
+        <TextContent col3lg>
+          <h2>A broad range of technical skills</h2>
+          <p>
+            Before specializing in <strong>React</strong> and front-end in
+            general, I explored the <strong>back-end</strong> side of the web
+            with <strong>Node</strong> and the <strong>Express</strong>{' '}
+            framework.
+          </p>
+          <p>
+            I even explored the world of <strong>Microservices</strong>,
+            building a massive course project with <strong>Docker</strong> and{' '}
+            <strong>Kubernetes</strong>.
+          </p>
+          <p>
+            Most back-end projects I’ve done integrate with a{' '}
+            <strong>MongoDB</strong> non-relational database. If yours connect
+            with <strong>Firebase</strong>, I’ve also done that.
+          </p>
+          <p>
+            Testing is an important aspect of shipping production-ready code. I
+            have experience writing tests with <strong>Jest</strong>.
+          </p>
+          <p>
+            I understand <strong>TypeScript</strong> and have used it during
+            several course projects.
+          </p>
+          <p>
+            I’ve also spent some time building <strong>Shopify</strong>{' '}
+            development stores and learning about their <strong>Liquid</strong>{' '}
+            templating language.
+          </p>
+        </TextContent>
+        <VisualContent
+          col3lg
+          visualLeft
+          caption={`Natours is a booking website for a travel agency built in November 2019 as part of a coding bootcamp. Node.js app built with Express and MongoDB. Automated emails with SendGrid and payment processing with Stripe API.`}
+        >
+          <MockupMacbook src='/videos/Live Demo Natours 380x238.mp4' />
+        </VisualContent>
+      </PageSection>
+      <PageSection lightBg>
+        <TextContent col4lg>
+          <h2>SEO as a standard</h2>
+          <p>
+            Mobile-first design. Faster page loads. Optimized metadata. These
+            are some of the many things you control to ensure your websites are
+            crawled properly, well understood by robots, and ranked as high as
+            they deserve.
+          </p>
+          <p>
+            Certified by Semrush in{' '}
+            <span style={{ backgroundColor: 'yellow' }}>
+              Technical SEO and Mobile SEO
+            </span>
+            , I strive to implement scalable and future-proof{' '}
+            <strong>SEO best practices</strong>.
+          </p>
+        </TextContent>
+        <VisualContent col2lg>
+          <Illustration src='/images/Upvote.svg' height={210} />
+        </VisualContent>
+      </PageSection>
+      <PageSection lightBg>
+        <TextContent col4lg>
+          <h2>A dev who can sell?</h2>
+          <p>
+            Imagine. An engineer who understands the science behind the art of
+            persuasion. And isn’t afraid to use it. Don’t you want{' '}
+            <em>that guy</em> on your team?
+          </p>
+          <p>
+            <strong>Marketing</strong> and <strong>psychology</strong> have been
+            two pillars of my self-learning. Now I’m also{' '}
+            <span style={{ backgroundColor: 'yellow' }}>
+              flexing my <strong>copywriting</strong> muscles
+            </span>
+            .
+          </p>
+          <p>
+            Because selling with words is the most valuable skill to have for
+            any online business to succeed.
+          </p>
+        </TextContent>
+        <VisualContent col2lg visualLeft>
+          <Illustration src='/images/Online Ad.svg' height={153} />
+        </VisualContent>
+      </PageSection>
+      <PageSection>
+        <TextContent col3lg>
+          <h2>Comfortable navigating uncharted waters</h2>
+          <p>
+            Is it scary to start something new? I’ve done it 9 times already as
+            an employee, not even counting my own enterprises.
+          </p>
+          <p>
+            New job, new company, new country, new industry, new project, new
+            skill. You can believe it when I say I thrive on new challenges!{' '}
+          </p>
+          <p>
+            I learn fast and adapt well to any environment so you can be assured
+            that{' '}
+            <strong>
+              when I join your team, I get up to speed in a breeze
+            </strong>
+            .
+          </p>
+        </TextContent>
+        <VisualContent
+          col3lg
+          caption={`Rafting the tumultuous Zambezi River in 2014.`}
+        >
+          <Photo src='/images/Rafting Zambezi River.jpeg' />
+        </VisualContent>
+      </PageSection>
+      <PageSection>
+        <TextContent col4lg centered>
+          <p>
+            This story continues on the{' '}
+            <Link href='/about'>
+              <a>About Me</a>
+            </Link>{' '}
+            page.
+          </p>
+          <p>
+            Also, check out{' '}
+            <Link href='/projects'>
+              <a>some of my projects</a>
+            </Link>
+            , read{' '}
+            <Link href='/blog'>
+              <a>my blog posts</a>
+            </Link>
+            , or{' '}
+            <Link href='/contact'>
+              <a>contact me</a>
+            </Link>
+            .
+          </p>
+        </TextContent>
       </PageSection>
     </main>
   );
