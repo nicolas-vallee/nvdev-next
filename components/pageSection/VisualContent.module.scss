@@ -5,9 +5,11 @@
   .visualElementContainer {
     width: 320px;
     margin: 0 auto;
+    padding-top: 0.5rem;
 
     @include respond-to('lg') {
       width: 100%;
+      padding-top: 0;
     }
   }
 
@@ -19,5 +21,11 @@
     font-style: italic;
     color: $color-text-caption;
     text-align: center;
+  }
+}
+
+.visualLeft {
+  @include respond-to('lg') {
+    order: -1;
   }
 }

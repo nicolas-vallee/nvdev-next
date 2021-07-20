@@ -65,6 +65,36 @@ export default function Home() {
           <MockupMacbook src='/videos/Live Demo Clear View Escapes 380x238.mp4' />
         </VisualContent>
       </PageSection>
+      <PageSection lightBg>
+        <TextContent col3lg>
+          <h2>Specialized in React</h2>
+          <p>
+            It’s the most popular front-end library. Why not learn about it? So,
+            I did. And I immediately loved working with <strong>React</strong>!
+          </p>
+          <p>
+            I’ve built several applications with <strong>Redux</strong> for
+            state management.
+          </p>
+          <p>
+            Whether you’re writing styles using <strong>CSS Modules</strong> or
+            a <strong>Styled Components</strong> library, I have experience
+            using both.
+          </p>
+          <p>
+            I’ve developed a few projects with <strong>Gatsby</strong>. And{' '}
+            <strong>Next</strong> is now my go-to framework for{' '}
+            <strong>React</strong> projects (I’m using it for this portfolio.)
+          </p>
+        </TextContent>
+        <VisualContent
+          col3lg
+          visualLeft
+          caption={`CRWN Clothing is a React bootcamp project that I tweaked in April 2021 to make it more interesting. Click on the image to read the case study. Spoiler: I used Next.js, Redux Toolkit, React Hooks, and Styled Components.`}
+        >
+          <MockupMacbook src='/videos/Live Demo CRWN Clothing 380x238.mp4' />
+        </VisualContent>
+      </PageSection>
     </div>
   );
 }
