@@ -13,7 +13,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header>The front-end developer you like to work with</Header>
-      <PageSection>
+      <PageSection lightBg>
         <TextContent col3lg>
           <h2>The modern workflow: building on solid foundations</h2>
           <p>

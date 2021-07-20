@@ -4,11 +4,11 @@ import styles from './PageSection.module.scss';
 const PageSection = (props) => {
   return (
     <section
-      className={cn(styles.sectionContainer, styles.pageSection, {
+      className={cn(styles.sectionContainer, {
         [styles.sectionLightBg]: props.lightBg,
       })}
     >
-      {props.children}
+      <div className={styles.pageSection}>{props.children}</div>
     </section>
   );
 };
