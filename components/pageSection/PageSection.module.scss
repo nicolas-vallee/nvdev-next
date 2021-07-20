@@ -1,0 +1,23 @@
+@import '/styles/variables';
+@import '/styles/mixins';
+
+.sectionContainer {
+  padding: 2rem 16px;
+  max-width: 496px;
+  margin: 0 auto;
+
+  @include respond-to('lg') {
+    padding: 4rem 0;
+    max-width: 1024px;
+  }
+}
+
+.sectionLightBg {
+  background-color: $color-bg-light;
+}
+
+.pageSection {
+  & h2 {
+    margin-bottom: 2rem;
+  }
+}
