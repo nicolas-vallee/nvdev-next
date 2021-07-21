@@ -40,8 +40,9 @@
   & a:active {
     color: $color-text-link--active;
   }
-}
 
-.centered {
-  margin: 0 auto;
+  & ul {
+    margin: 0;
+    list-style-type: circle;
+  }
 }

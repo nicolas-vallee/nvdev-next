@@ -7,6 +7,8 @@ const VisualContent = (props) => {
       className={cn(styles.visualContent, {
         col2lg: props.col2lg,
         col3lg: props.col3lg,
+        col4lg: props.col4lg,
+        centered: props.centered,
         [styles.visualLeft]: props.visualLeft,
         [styles.visualFirst]: props.visualFirst,
       })}

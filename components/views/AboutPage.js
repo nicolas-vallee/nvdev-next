@@ -2,11 +2,9 @@ import Link from 'next/link';
 import PageSection from '../pageSection/PageSection';
 import TextContent from '../pageSection/TextContent';
 import VisualContent from '../pageSection/VisualContent';
-import MockupMacbook from '../pageSection/MockupMacbook';
-import MockupIphone from '../pageSection/MockupIphone';
 import Illustration from '../pageSection/Illustration';
-import Photo from '../pageSection/Photo';
 import Banner from '../pageSection/Banner';
+import Gallery from '../pageSection/Gallery';
 
 const AboutPage = () => {
   return (
@@ -57,8 +55,8 @@ const AboutPage = () => {
                 <strong>Excellent collaboration skills?</strong> Check.
               </li>
             </ul>
-            Apply both and you get some productive work done.
           </p>
+          <p>Apply both and you get some productive work done.</p>
           <p>
             My previous roles involved a lot of <strong>autonomy</strong> on my
             part. I enjoy <strong>responsibility</strong> and eagerly take{' '}
@@ -193,6 +191,68 @@ const AboutPage = () => {
         <VisualContent col2lg visualFirst visualLeft>
           <Illustration src='/images/Stock Prices.svg' height={280} />
         </VisualContent>
+      </PageSection>
+      <PageSection>
+        <div style={{ width: '100%' }}>
+          <TextContent col4lg centered>
+            <h2>Life away from keyboard</h2>
+          </TextContent>
+          <div className={`col4lg centered`}>
+            <Gallery />
+          </div>
+          <TextContent col4lg centered>
+            <p>
+              There’s so much to do in this world when you put down the laptop.
+              Things like:
+            </p>
+            <p>
+              <ul>
+                <li>Running a relay race with my colleagues in Paris.</li>
+                <li>Practicing my swing.</li>
+                <li>
+                  Shooting what appears to be a Ray-Ban commercial in Batumi.
+                </li>
+                <li>Catching some waves in Portugal.</li>
+                <li>Playing tennis with my girlfriend.</li>
+                <li>Walking on frozen Paravani Lake in stunning Georgia.</li>
+              </ul>
+            </p>
+          </TextContent>
+        </div>
+      </PageSection>
+      <PageSection>
+        <TextContent col4lg centered>
+          <p>
+            Now that you know a little more about me, how do you see me fit into
+            your team?
+          </p>
+          <p>
+            It’s totally cool if you’re looking for a different type of profile.
+            No hard feelings.
+          </p>
+          <p>
+            But if you see a future here,{' '}
+            <Link href='/contact'>
+              <a>let’s get in touch</a>
+            </Link>{' '}
+            because I’d love to discuss how I can help you and your team.
+          </p>
+          <p>
+            You can go back to read{' '}
+            <Link href='/'>
+              <a>what I can do for you</a>
+            </Link>
+            , check out{' '}
+            <Link href='/projects'>
+              <a>some of my projects</a>
+            </Link>
+            , or{' '}
+            <Link href='/blog'>
+              <a>read my blog posts</a>
+            </Link>
+            .
+          </p>
+        </TextContent>
       </PageSection>
     </main>
   );
