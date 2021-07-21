@@ -2,15 +2,19 @@
 @import '/styles/mixins';
 
 .visualContent {
+  margin-top: 2rem;
+
+  @include respond-to('lg') {
+    margin-top: 0;
+  }
+
   .visualElementContainer {
     position: relative;
     width: 320px;
     margin: 0 auto;
-    padding-top: 0.5rem;
 
     @include respond-to('lg') {
       width: 100%;
-      padding-top: 0;
     }
   }
 
@@ -27,11 +31,12 @@
 
 .visualFirst {
   order: -1;
+  margin-top: 0;
   margin-bottom: 2rem;
 
   @include respond-to('lg') {
     order: unset;
-    margin: unset;
+    margin-bottom: 0;
   }
 }
 

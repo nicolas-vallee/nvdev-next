@@ -1,0 +1,36 @@
+@import '/styles/variables';
+@import '/styles/mixins';
+
+.bannerBg {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2.25rem 1rem;
+  background-color: $color-bg-banner;
+  margin: 1rem 0 2rem;
+
+  @include respond-to('lg') {
+    padding: 3rem 0;
+    margin: 2rem 0 4rem;
+  }
+}
+
+.bannerContent {
+  max-width: 42rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bannerText {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: $ice-white;
+
+  @include respond-to('lg') {
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+  }
+}
