@@ -8,6 +8,7 @@ const VisualContent = (props) => {
         col2lg: props.col2lg,
         col3lg: props.col3lg,
         [styles.visualLeft]: props.visualLeft,
+        [styles.visualFirst]: props.visualFirst,
       })}
     >
       <div className={styles.visualElementContainer}>{props.children}</div>

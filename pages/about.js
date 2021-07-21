@@ -1,16 +1,16 @@
 import Head from 'next/head';
 import Header from '../components/header/Header';
-import HomePage from '../components/views/HomePage';
+import AboutPage from '../components/views/AboutPage';
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
         <title>Create Next App</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Header>The front-end developer you like to work with</Header>
-      <HomePage />
+      <Header>About me</Header>
+      <AboutPage />
     </>
   );
 }

@@ -25,6 +25,16 @@
   }
 }
 
+.visualFirst {
+  order: -1;
+  margin-bottom: 2rem;
+
+  @include respond-to('lg') {
+    order: unset;
+    margin: unset;
+  }
+}
+
 .visualLeft {
   @include respond-to('lg') {
     order: -1;
