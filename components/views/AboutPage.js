@@ -137,6 +137,63 @@ const AboutPage = () => {
           <Illustration src='/images/Business Deal.svg' height={243} />
         </VisualContent>
       </PageSection>
+      <PageSection>
+        <TextContent col4lg>
+          <h2>A self-learner is a problem solver</h2>
+          <p>Learning on your own is hard. </p>
+          <p>
+            And there’s a catch: first, you must know how to learn efficiently.
+            I even took{' '}
+            <a href='https://www.udemy.com/course/learning-to-learn-efficient-learning-zero-to-mastery/'>
+              a course on this subject
+            </a>
+            .
+          </p>
+          <p>
+            There are a lot of obstacles on the way. A lot of problems to solve.
+            Which means a good deal of{' '}
+            <strong>reading the documentation</strong> and{' '}
+            <strong>searching for solutions</strong> to similar issues.
+          </p>
+          <p>And you know how much time developers spend doing just that!</p>
+        </TextContent>
+        <VisualContent col2lg visualFirst>
+          <Illustration src='/images/Detailed Analysis.svg' height={228} />
+        </VisualContent>
+      </PageSection>
+      <PageSection>
+        <TextContent col4lg>
+          <h2>Discipline pays dividends</h2>
+          <p>
+            You’ve heard it before. Make money while you sleep. Your money
+            should work for you. Passive income is the dream.
+          </p>
+          <p>
+            And more and more people are set on chasing that dream. But how do
+            you get there?
+          </p>
+          <p>
+            It doesn’t happen overnight. Everyone makes mistakes along the way.
+            I made many! There’s a lot to learn, and even more to unlearn. It
+            requires humility, resilience, and discipline.
+          </p>
+          <p>
+            But it works: in 2020 my portfolio gains exceeded my expenses. I
+            achieved my first goal on the way to financial independence.
+          </p>
+          <p style={{ backgroundColor: 'yellow' }}>
+            "Humility to learn, resilience in the face of adversity, discipline
+            to keep moving forward."
+          </p>
+          <p>
+            These same qualities carry into achieving any goal, however long the
+            road is.
+          </p>
+        </TextContent>
+        <VisualContent col2lg visualFirst visualLeft>
+          <Illustration src='/images/Stock Prices.svg' height={280} />
+        </VisualContent>
+      </PageSection>
     </main>
   );
 };
