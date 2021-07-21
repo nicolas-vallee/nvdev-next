@@ -179,10 +179,12 @@ const AboutPage = () => {
             But it works: in 2020 my portfolio gains exceeded my expenses. I
             achieved my first goal on the way to financial independence.
           </p>
-          <p style={{ backgroundColor: 'yellow' }}>
-            "Humility to learn, resilience in the face of adversity, discipline
-            to keep moving forward."
-          </p>
+          <blockquote>
+            <p>
+              <span>&#8223;</span>Humility to learn, resilience in the face of
+              adversity, discipline to keep moving forward.<span>&#8223;</span>
+            </p>
+          </blockquote>
           <p>
             These same qualities carry into achieving any goal, however long the
             road is.

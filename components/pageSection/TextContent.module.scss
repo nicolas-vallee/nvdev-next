@@ -45,4 +45,53 @@
     margin: 0;
     list-style-type: circle;
   }
+
+  & blockquote {
+    margin-block-start: 1.5rem;
+    margin-block-end: 1.5rem;
+    margin-inline-start: 1.5rem;
+    margin-inline-end: 0;
+
+    @include respond-to('lg') {
+      margin-block-start: 1.75rem;
+      margin-block-end: 1.75rem;
+      margin-inline-start: 3rem;
+    }
+  }
+
+  & blockquote > p {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: $steel-blue;
+
+    @include respond-to('lg') {
+      font-size: 1.375rem;
+      line-height: 2.125rem;
+    }
+  }
+
+  & blockquote > p span {
+    color: $gray-300;
+  }
+
+  & blockquote > p span:first-of-type {
+    font-size: 1.5em;
+    position: absolute;
+    left: -16px;
+    top: 0;
+
+    @include respond-to('lg') {
+      left: -20px;
+    }
+  }
+
+  & blockquote > p span:last-of-type {
+    display: inline-block;
+    transform: scale(-1, 1);
+    font-size: 1.25em;
+  }
 }

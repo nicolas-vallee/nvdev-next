@@ -34,3 +34,14 @@
     line-height: 2.125rem;
   }
 }
+
+.logoContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+
+  & > path {
+    fill: #fff;
+  }
+}
