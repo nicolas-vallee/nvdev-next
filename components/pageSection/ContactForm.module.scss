@@ -1,0 +1,81 @@
+@import '/styles/variables';
+@import '/styles/mixins';
+
+.contactForm {
+  & label {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    color: $color-text-heading;
+
+    @include respond-to('lg') {
+      margin-bottom: 0.875rem;
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+  }
+
+  & input,
+  & textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 1.5rem;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: $color-text-body;
+    border-color: $steel-blue;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: $ice-white;
+
+    @include respond-to('lg') {
+      margin-bottom: 1.75rem;
+    }
+  }
+
+  & input {
+    height: 3rem;
+    padding: 0.25rem 1rem;
+
+    @include respond-to('lg') {
+      height: 3.5rem;
+    }
+  }
+
+  & textarea {
+    height: 12rem;
+    padding: 0.75rem 1rem;
+    line-height: 1.5;
+
+    @include respond-to('lg') {
+      height: 14rem;
+    }
+  }
+
+  & button {
+    padding: 0.75rem 2rem;
+    text-transform: uppercase;
+    background-color: $orange-soda;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    border: 1px solid $orange-soda;
+    border-radius: 8px;
+    transition: all 0.5s ease-out;
+  }
+
+  & button:hover {
+    cursor: pointer;
+
+    background-color: #fff;
+    color: $orange-soda;
+  }
+}
