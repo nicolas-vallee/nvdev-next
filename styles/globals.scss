@@ -44,6 +44,17 @@ h2 {
   }
 }
 
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+
+  @include respond-to('lg') {
+    font-size: 1.625rem;
+    line-height: 2.5rem;
+  }
+}
+
 .col2lg {
   @include respond-to('lg') {
     width: 20rem;
