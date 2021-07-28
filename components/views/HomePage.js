@@ -13,24 +13,23 @@ const HomePage = () => {
       <PageSection>
         <TextContent col4lg centered>
           <p>
+            The feeling of building something. I’ve always been drawn to it.
+            Since I was a child, playing with bricks of Legos or virtual cities.
+            And now, I’m excited every time I see the lines of code that I write
+            come alive on the screen.
+          </p>
+          <p>
             Expanding your front-end team? Looking for a pragmatic problem
             solver passionate about personal growth?
           </p>
           <p>
-            I’m a self-taught developer specialized in React. And I’m a lot more
-            than that!
+            Hi! My name's Nicolas. I’m a self-taught developer specialized in
+            React. And I’m a lot more than that!
           </p>
           <p>
-            This short video{' '}
-            <span style={{ backgroundColor: 'yellow' }}>(xx min)</span> goes
-            over <strong>what I can do for you:</strong>
-          </p>
-          <span style={{ backgroundColor: 'yellow' }}>
-            Insert the video here...
-          </span>
-          <p>
-            Want to know more about my technical skills? Keep reading below.
-            More interested in who I am and my story? Head over to the{' '}
+            What about my technical skills? Let's dive below into{' '}
+            <strong>what I can do for you</strong>. More interested in who I am
+            and my story? Head over to the{' '}
             <Link href='/about'>
               <a>About Me</a>
             </Link>{' '}
