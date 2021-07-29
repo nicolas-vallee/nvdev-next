@@ -16,6 +16,52 @@ const ProjectsPage = () => {
               alignItems: 'baseline',
             }}
           >
+            <h3>CRWN Clothing</h3>
+            <a
+              href='https://crwn-clothing-nva.vercel.app/'
+              style={{ flexShrink: 0 }}
+            >
+              Visit the site
+            </a>
+          </div>
+          <p>
+            In April 2021, I tweaked this <strong>React</strong> bootcamp
+            project to make it more interesting.
+          </p>
+          <p>
+            Instead of the following along with the course, I used{' '}
+            <strong>Next.js</strong>, <strong>Redux Toolkit</strong>, React{' '}
+            <strong>Hooks</strong>, and <strong>Styled Components</strong>.
+          </p>
+          <p>
+            This project is deployed on <strong>Vercel</strong>.
+          </p>
+          <Link href='/'>
+            <button>Read the case study</button>
+          </Link>
+        </TextContent>
+        <VisualContent
+          col3lg
+          visualFirst
+          visualLeft
+          caption={`E-shop built with Next.js.`}
+        >
+          <MockupMacbook
+            src='/images/Screenshot CRWN Clothing.jpg'
+            screenshot
+          />
+        </VisualContent>
+      </PageSection>
+
+      <PageSection>
+        <TextContent col3lg>
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'baseline',
+            }}
+          >
             <h3>ProShop</h3>
             <a
               href='https://proshop-nva.herokuapp.com/'
@@ -46,7 +92,7 @@ const ProjectsPage = () => {
           visualLeft
           caption={`E-commerce app built from scratch with the MERN stack.`}
         >
-          <MockupMacbook src='' />
+          <MockupMacbook src='/images/Screenshot ProShop.jpg' screenshot />
         </VisualContent>
       </PageSection>
 
@@ -88,7 +134,7 @@ const ProjectsPage = () => {
           visualLeft
           caption={`Design inspired by the popular Extra theme.`}
         >
-          <MockupMacbook src='' />
+          <MockupMacbook src='/images/Screenshot Gatsby Blog.jpg' screenshot />
         </VisualContent>
       </PageSection>
 
@@ -131,7 +177,10 @@ const ProjectsPage = () => {
           visualLeft
           caption={`A clone of websites like Flat UI Colors and Material UI Colors. `}
         >
-          <MockupMacbook src='' />
+          <MockupMacbook
+            src='/images/Screenshot React Palette.jpg'
+            screenshot
+          />
         </VisualContent>
       </PageSection>
 
@@ -163,9 +212,6 @@ const ProjectsPage = () => {
           <p>
             Deployed on <strong>Netlify</strong>.
           </p>
-          <Link href='/'>
-            <button>Read the case study</button>
-          </Link>
         </TextContent>
         <VisualContent
           col3lg
@@ -173,7 +219,10 @@ const ProjectsPage = () => {
           visualLeft
           caption={`Landing page and modal contact form for a custom travel agency.`}
         >
-          <MockupMacbook src='/videos/Live Demo Clear View Escapes 380x238.mp4' />
+          <MockupMacbook
+            src='/images/Screenshot Clear View Escapes.jpg'
+            screenshot
+          />
         </VisualContent>
       </PageSection>
 
@@ -216,7 +265,7 @@ const ProjectsPage = () => {
           visualLeft
           caption={`Booking website for a travel agency.`}
         >
-          <MockupMacbook src='' />
+          <MockupMacbook src='/images/Screenshot Natours.jpg' screenshot />
         </VisualContent>
       </PageSection>
       <PageSection>
@@ -259,7 +308,10 @@ const ProjectsPage = () => {
           visualLeft
           caption={`Landing page for an adventure tour startup.`}
         >
-          <MockupMacbook src='' />
+          <MockupMacbook
+            src='/images/Screenshot Mountain Travel.jpg'
+            screenshot
+          />
         </VisualContent>
       </PageSection>
     </main>

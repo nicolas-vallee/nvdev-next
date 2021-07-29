@@ -6,19 +6,28 @@
   width: 320px;
   height: 184px;
 
-  & video {
-    display: block;
-    position: absolute;
+  & video,
+  & .screenshotContainer {
     width: 246px;
     height: 154px;
     left: 37px;
     top: 9px;
   }
 
+  & .screenshotContainer {
+    position: relative;
+  }
+
+  & video {
+    display: block;
+    position: absolute;
+  }
+
   @include respond-to('lg') {
     width: 496px;
     height: 285px;
 
+    & .screenshotContainer,
     & video {
       width: 380px;
       height: 238px;

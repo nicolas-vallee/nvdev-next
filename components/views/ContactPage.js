@@ -6,6 +6,16 @@ const ContactPage = () => {
   return (
     <main>
       <PageSection>
+        <div style={{ width: '100%' }}>
+          <TextContent col4lg centered>
+            <h2>Send me a message</h2>
+          </TextContent>
+          <div className={`col4lg centered`}>
+            <ContactForm />
+          </div>
+        </div>
+      </PageSection>
+      <PageSection>
         <TextContent col4lg centered>
           <p>
             Connect with me on{' '}
@@ -20,16 +30,6 @@ const ContactPage = () => {
             <a href='https://github.com/nva12'>this account</a>)
           </p>
         </TextContent>
-      </PageSection>
-      <PageSection>
-        <div style={{ width: '100%' }}>
-          <TextContent col4lg centered>
-            <h2>Send me a message</h2>
-          </TextContent>
-          <div className={`col4lg centered`}>
-            <ContactForm />
-          </div>
-        </div>
       </PageSection>
     </main>
   );
