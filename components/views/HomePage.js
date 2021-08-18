@@ -126,7 +126,7 @@ const HomePage = () => {
         <VisualContent
           col3lg
           visualLeft
-          caption={`CRWN Clothing is a React bootcamp project that I tweaked in April 2021 to make it more interesting. Click on the image to read the case study. Spoiler: I used Next.js, Redux Toolkit, React Hooks, and Styled Components.`}
+          caption={`CRWN Clothing is a React bootcamp project that I tweaked in April 2021 to make it more interesting. Spoiler: I used Next.js, Redux Toolkit, React Hooks, and Styled Components.`}
         >
           <MockupMacbook src='/videos/Live Demo CRWN Clothing 380x238.mp4' />
         </VisualContent>
