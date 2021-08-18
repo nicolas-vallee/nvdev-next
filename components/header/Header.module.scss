@@ -14,6 +14,16 @@
   }
 }
 
+.hamburgerIcon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+
+  @include respond-to('lg') {
+    display: none;
+  }
+}
+
 .container {
   padding: 0 16px 1rem;
   max-width: 496px;

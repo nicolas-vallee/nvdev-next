@@ -1,10 +1,17 @@
 import Image from 'next/image';
+import { useState } from 'react';
 import styles from './Header.module.scss';
+import { Squash as Hamburger } from 'hamburger-react';
 
 const Header = (props) => {
+  const [isOpen, setOpen] = useState(false);
+
   return (
     <header>
-      <div className={styles.bgStripe} />
+      <div className={styles.bgStripe}></div>
+      <div className={styles.hamburgerIcon}>
+        <Hamburger toggled={isOpen} toggle={setOpen} rounded color='#f9fcff' />
+      </div>
       <div className={styles.container}>
         <div className={styles.avatarContainer}>
           <Image
