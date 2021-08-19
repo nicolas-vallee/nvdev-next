@@ -218,9 +218,13 @@ const HomePage = () => {
           </p>
           <p>
             Certified by Semrush in{' '}
-            <span style={{ backgroundColor: 'yellow' }}>
-              Technical SEO and Mobile SEO
-            </span>
+            <a href='https://static.semrush.com/academy-prod/certificate/8785836/SEMrush-Academy-Certificate-e50fe2e84c02691b6bc6a14ec9b949027b072525178ad7426933fa002bdef6a9.png'>
+              Technical SEO
+            </a>{' '}
+            and{' '}
+            <a href='https://static.semrush.com/academy-prod/certificate/8785836/SEMrush-Academy-Certificate-f74642e14628ee1d584897743df5ef23ff4a31c9045f8950c6776fe80a4d0c81.png'>
+              Mobile SEO
+            </a>
             , I strive to implement scalable and future-proof{' '}
             <strong>SEO best practices</strong>.
           </p>
@@ -239,11 +243,8 @@ const HomePage = () => {
           </p>
           <p>
             <strong>Marketing</strong> and <strong>psychology</strong> have been
-            two pillars of my self-learning. Now I’m also{' '}
-            <span style={{ backgroundColor: 'yellow' }}>
-              flexing my <strong>copywriting</strong> muscles
-            </span>
-            .
+            two pillars of my self-learning. Now I’m also flexing my{' '}
+            <strong>copywriting</strong> muscles.
           </p>
           <p>
             Because selling with words is the most valuable skill to have for
