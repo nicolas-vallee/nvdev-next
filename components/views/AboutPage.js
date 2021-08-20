@@ -163,8 +163,11 @@ const AboutPage = () => {
         <TextContent col4lg>
           <h2>Discipline pays dividends</h2>
           <p>
-            You’ve heard it before. Make money while you sleep. Your money
-            should work for you. Passive income is the dream.
+            You’ve heard it before.{' '}
+            <em>
+              Make money while you sleep. Your money should work for you.
+              Passive income is the dream.
+            </em>
           </p>
           <p>
             And more and more people are set on chasing that dream. But how do
@@ -179,16 +182,18 @@ const AboutPage = () => {
             But it works: in 2020 my portfolio gains exceeded my expenses. I
             achieved my first goal on the way to financial independence.
           </p>
+          <p>
+            You're thinking:{' '}
+            <em>Good for you Nicolas, but why should I care?</em> Because the
+            same qualities carry into achieving any goal, however long the road
+            is.
+          </p>
           <blockquote>
             <p>
               <span>&#8223;</span>Humility to learn, resilience in the face of
               adversity, discipline to keep moving forward.<span>&#8223;</span>
             </p>
           </blockquote>
-          <p>
-            These same qualities carry into achieving any goal, however long the
-            road is.
-          </p>
         </TextContent>
         <VisualContent col2lg visualFirst visualLeft>
           <Illustration src='/images/Stock Prices.svg' height={280} />

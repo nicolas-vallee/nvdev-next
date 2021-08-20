@@ -13,18 +13,23 @@ const HomePage = () => {
       <PageSection>
         <TextContent col4lg centered>
           <p>
-            The feeling of building something. I’ve always been drawn to it.
-            Since I was a child, playing with bricks of Legos or virtual cities.
-            And now, I’m excited every time I see the lines of code that I write
-            come alive on the screen.
+            <strong>Expanding your front-end team?</strong>
           </p>
           <p>
-            Expanding your front-end team? Looking for a pragmatic problem
-            solver passionate about personal growth?
+            <strong>
+              Looking for a pragmatic problem solver passionate about personal
+              growth?
+            </strong>
           </p>
           <p>
             Hi! My name's Nicolas. I’m a self-taught developer specialized in
             React. And I’m a lot more than that!
+          </p>
+          <p>
+            I’ve always been drawn to the idea of <em>building something</em>.
+            Since I was a child, playing with bricks of Legos or virtual cities.
+            And now, I’m excited every time I see the lines of code that I write
+            come alive on the screen.
           </p>
           <p>
             What about my technical skills? Let's dive below into{' '}

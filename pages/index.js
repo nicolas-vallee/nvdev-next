@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>
+          The Front-End Developer You Like To Work With | Nicolas Vallée
+        </title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header>The front-end developer you like to work with</Header>

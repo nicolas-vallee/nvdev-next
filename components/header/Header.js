@@ -34,7 +34,7 @@ const Header = (props) => {
             </li>
             <li>
               <Link href='/contact'>
-                <a>Contact Me</a>
+                <a>Contact</a>
               </Link>
             </li>
             <li>
