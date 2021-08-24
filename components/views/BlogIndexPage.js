@@ -1,7 +1,6 @@
 import PageSection from '../pageSection/PageSection';
 import TextContent from '../pageSection/TextContent';
 import Link from 'next/link';
-import Date from '../pageSection/Date';
 
 const BlogIndexPage = ({ allPostsData }) => {
   return (
@@ -9,16 +8,20 @@ const BlogIndexPage = ({ allPostsData }) => {
       <PageSection>
         <div style={{ width: '100%' }}>
           <TextContent col4lg centered>
-            <ul>
+            <ul style={{ listStyle: 'none', padding: 0 }}>
               {allPostsData.map(({ id, date, title, excerpt }) => (
                 <li key={id}>
-                  <Link href={`/posts/${id}`}>
-                    <a>{title}</a>
+                  <Link href={`/blog/${id}`}>
+                    <a style={{ textDecoration: 'none' }}>
+                      <h3>{title}</h3>
+                    </a>
                   </Link>
-                  <br />
-                  <p>{excerpt}</p>
-                  <br />
-                  <Date dateString={date} />
+                  <p>
+                    {excerpt}{' '}
+                    <Link href={`/blog/${id}`}>
+                      <a>Read more</a>
+                    </Link>
+                  </p>
                 </li>
               ))}
             </ul>

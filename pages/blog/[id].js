@@ -1,6 +1,10 @@
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
-import Date from '../../components/pageSection/Date';
+// import Date from '../../components/pageSection/Date';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
+import PageSection from '../../components/pageSection/PageSection';
+import TextContent from '../../components/pageSection/TextContent';
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
@@ -21,17 +25,23 @@ export async function getStaticPaths() {
 
 const Post = ({ postData }) => {
   return (
-    <div>
+    <>
       <Head>
-        <title>{postData.title}</title>
+        <title>{postData.title} | Nicolas Vallée</title>
       </Head>
-      {postData.title}
-      <br />
-      {postData.id}
-      <br />
-      <Date dateString={postData.date} />
-      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-    </div>
+      <Header>{postData.title}</Header>
+      <main>
+        <PageSection>
+          <div style={{ width: '100%' }}>
+            <TextContent col4lg centered>
+              {/* <Date dateString={postData.date} /> */}
+              <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+            </TextContent>
+          </div>
+        </PageSection>
+      </main>
+      <Footer />
+    </>
   );
 };
 

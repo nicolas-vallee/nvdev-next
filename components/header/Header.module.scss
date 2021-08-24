@@ -19,7 +19,22 @@
 }
 
 .menuOverlay {
+  display: none;
   z-index: 10;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(6px);
+  overflow: hidden;
+}
+
+.menuOpen {
+  display: block;
+}
+
+.menuBg {
   position: absolute;
   top: 0;
   right: 0;
@@ -27,13 +42,6 @@
   width: 36rem;
   max-width: 100vw;
   background-color: $steel-blue;
-  transform: translateX(100%);
-  transition: all ease-out 0.3s;
-  overflow: hidden;
-}
-
-.menuOpen {
-  transform: translateX(0);
 }
 
 .menuItems {
@@ -77,6 +85,15 @@
 
   @include respond-to('lg') {
     right: 0;
+  }
+}
+
+.iconFixed {
+  position: fixed;
+  top: 32px;
+
+  @include respond-to('lg') {
+    right: 64px;
   }
 }
 
