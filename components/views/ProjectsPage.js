@@ -36,7 +36,7 @@ const ProjectsPage = () => {
           <p>
             This project is deployed on <strong>Vercel</strong>.
           </p>
-          <Link href='/'>
+          <Link href='blog/refactoring-course-project'>
             <button>Read the case study</button>
           </Link>
         </TextContent>

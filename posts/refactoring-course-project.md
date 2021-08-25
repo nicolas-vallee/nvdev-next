@@ -4,6 +4,8 @@ date: '2021-08-24'
 excerpt: 'This is a manually generated excerpt to appear below the title on the blog index page.'
 ---
 
+_I deployed this website with the blog section in MVP mode, so for the moment it's a bit lacking in content and styling. Thank you for your understanding_ 😉
+
 Online courses about web development are usually built around a master project where the student codes along with the instructor. These tutorials are a great way to learn a new language or framework, however nothing beats having to find, by yourself, the solutions to the problems you encounter in your own projects.
 
 Having said that, coming up with a full project on your own, from the topic, the architecture, the content, the visual assets, to the styles, can be an overwhelming task when the main goal is to write some React components together with some Redux code.
@@ -21,6 +23,8 @@ The course teaches how to build a React project using the Create-React-App tool.
 - I wanted to become more familiar with this framework as its popularity keeps growing,
 - I had already completed many React projects using CRA,
 - It would give me the opportunity to solve some issues on my own, without the possibility to rely on the instructor’s code.
+  <br />
+  <br />
 
 ## Redux Toolkit
 
