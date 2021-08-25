@@ -1,7 +1,7 @@
 ---
-title: 'Refactoring A Course Project'
+title: 'How I Made the Most of an Online React Course Project, Without Wasting Time on the Fluff'
 date: '2021-08-24'
-excerpt: 'This is a manually generated excerpt to appear below the title on the blog index page.'
+excerpt: 'This is how I turned a code-along course project into a powerful training ground.'
 ---
 
 _I deployed this website with the blog section in MVP mode, so for the moment it's a bit lacking in content and styling. Thank you for your understanding_ 😉
@@ -10,7 +10,7 @@ Online courses about web development are usually built around a master project w
 
 Having said that, coming up with a full project on your own, from the topic, the architecture, the content, the visual assets, to the styles, can be an overwhelming task when the main goal is to write some React components together with some Redux code.
 
-To get the best of both worlds, I went back to a code-along project from a full React Senior Developer course that I had already completed about a year before. And I made some significant changes that would deviate far enough from the instructor’s code that I would have to implement my own solutions, relying on the official documentation instead of the solution code.
+To get the best of both worlds, I went back to a code-along project from a [full React Senior Developer course](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/) that I had already completed about a year before. And I made some significant changes that would deviate far enough from the instructor’s code that I would have to implement my own solutions, relying on the official documentation instead of the solution code.
 
 At the same time keeping the same app structure, styles, and various assets from the course, to focus on the React / Redux core of the project. The result is visually very similar, but the code is not.
 
