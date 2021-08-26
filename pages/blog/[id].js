@@ -28,6 +28,7 @@ const Post = ({ postData }) => {
     <>
       <Head>
         <title>{postData.title} | Nicolas Vallée</title>
+        <meta name='description' content={postData.excerpt} />
       </Head>
       <Header>{postData.title}</Header>
       <main>

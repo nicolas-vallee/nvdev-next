@@ -39,7 +39,11 @@ const AboutPage = () => {
           </p>
         </TextContent>
         <VisualContent col2lg visualFirst>
-          <Illustration src='/images/Project Completed.svg' height={238} />
+          <Illustration
+            src='/images/Project Completed.svg'
+            height={238}
+            alt="Engineer's mindset ensures success in highly technical environments."
+          />
         </VisualContent>
       </PageSection>
       <Banner />
@@ -73,7 +77,11 @@ const AboutPage = () => {
           </p>
         </TextContent>
         <VisualContent col2lg visualFirst visualLeft>
-          <Illustration src='/images/Scrum Board.svg' height={238} />
+          <Illustration
+            src='/images/Scrum Board.svg'
+            height={238}
+            alt='I work well in autonomy and collaborate efficiently with others.'
+          />
         </VisualContent>
       </PageSection>
       <PageSection>
@@ -105,7 +113,11 @@ const AboutPage = () => {
           </p>
         </TextContent>
         <VisualContent col2lg visualFirst>
-          <Illustration src='/images/Code Review.svg' height={207} />
+          <Illustration
+            src='/images/Code Review.svg'
+            height={207}
+            alt='Learning and growing are core values.'
+          />
         </VisualContent>
       </PageSection>
       <PageSection>
@@ -132,7 +144,11 @@ const AboutPage = () => {
           </p>
         </TextContent>
         <VisualContent col2lg visualFirst visualLeft>
-          <Illustration src='/images/Business Deal.svg' height={243} />
+          <Illustration
+            src='/images/Business Deal.svg'
+            height={243}
+            alt='Hire someone you can depend on.'
+          />
         </VisualContent>
       </PageSection>
       <PageSection>
@@ -156,7 +172,11 @@ const AboutPage = () => {
           <p>And you know how much time developers spend doing just that!</p>
         </TextContent>
         <VisualContent col2lg visualFirst>
-          <Illustration src='/images/Detailed Analysis.svg' height={228} />
+          <Illustration
+            src='/images/Detailed Analysis.svg'
+            height={228}
+            alt='Obstacles are not problems but opportunities to improve.'
+          />
         </VisualContent>
       </PageSection>
       <PageSection>
@@ -196,7 +216,11 @@ const AboutPage = () => {
           </blockquote>
         </TextContent>
         <VisualContent col2lg visualFirst visualLeft>
-          <Illustration src='/images/Stock Prices.svg' height={280} />
+          <Illustration
+            src='/images/Stock Prices.svg'
+            height={280}
+            alt='Taking consistent action brings success.'
+          />
         </VisualContent>
       </PageSection>
       <PageSection>

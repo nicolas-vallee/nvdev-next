@@ -8,10 +8,16 @@ const MockupMacbook = (props) => {
         src='/images/Macbook Pro Mockup Device Loading State 496x285.png'
         layout='fill'
         objectFit='contain'
+        alt=''
       />
       {props.screenshot ? (
         <div className={styles.screenshotContainer}>
-          <Image src={props.src} layout='fill' objectFit='contain' />
+          <Image
+            src={props.src}
+            layout='fill'
+            objectFit='contain'
+            alt={props.alt}
+          />
         </div>
       ) : (
         <video src={props.src} width='380px' controls autoPlay muted loop>

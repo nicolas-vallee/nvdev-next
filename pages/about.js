@@ -8,7 +8,10 @@ export default function About() {
     <>
       <Head>
         <title>About Me | Nicolas Vallée</title>
-        <link rel='icon' href='/favicon.ico' />
+        <meta
+          name='description'
+          content='Resourceful Engineer with experience of demanding environments, I bring clear and effective communication at the service of the team.'
+        />
       </Head>
       <Header>About me</Header>
       <AboutPage />

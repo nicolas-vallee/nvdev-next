@@ -235,7 +235,11 @@ const HomePage = () => {
           </p>
         </TextContent>
         <VisualContent col2lg>
-          <Illustration src='/images/Upvote.svg' height={210} />
+          <Illustration
+            src='/images/Upvote.svg'
+            height={210}
+            alt='Web developers can optimize your search engine rankings to get more traffic to your website.'
+          />
         </VisualContent>
       </PageSection>
       <PageSection lightBg>
@@ -257,7 +261,11 @@ const HomePage = () => {
           </p>
         </TextContent>
         <VisualContent col2lg visualLeft>
-          <Illustration src='/images/Online Ad.svg' height={153} />
+          <Illustration
+            src='/images/Online Ad.svg'
+            height={153}
+            alt='Marketing skills in your engineering team benefit your whole business.'
+          />
         </VisualContent>
       </PageSection>
       <PageSection>
@@ -284,7 +292,10 @@ const HomePage = () => {
           col3lg
           caption={`Rafting the tumultuous Zambezi River in 2014.`}
         >
-          <Photo src='/images/Rafting Zambezi River.jpeg' />
+          <Photo
+            src='/images/Rafting Zambezi River.jpeg'
+            alt='Save time and money by hiring an adaptable engineer quick to learn.'
+          />
         </VisualContent>
       </PageSection>
       <PageSection>

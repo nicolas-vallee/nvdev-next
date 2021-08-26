@@ -9,7 +9,10 @@ export default function Contact() {
     <>
       <Head>
         <title>Contact | Nicolas Vallée</title>
-        <link rel='icon' href='/favicon.ico' />
+        <meta
+          name='description'
+          content='I am looking to join a team where my Front-End development skills keep growing. Let’s discuss how we can work together.'
+        />
       </Head>
       <Header>Contact</Header>
       <ContactPage />
