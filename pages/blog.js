@@ -20,7 +20,10 @@ export default function Blog({ allPostsData }) {
     <>
       <Head>
         <title>Blog | Nicolas Vallée</title>
-        <link rel='icon' href='/favicon.ico' />
+        <meta
+          name='description'
+          content='How does a resourceful self-learner solve coding challenges? Here is some insight from my journey into web development.'
+        />
       </Head>
       <Header>Blog Posts & Case Studies</Header>
       <BlogIndexPage allPostsData={allPostsData} />

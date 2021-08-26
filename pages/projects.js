@@ -8,7 +8,10 @@ export default function Projects() {
     <>
       <Head>
         <title>My Projects | Nicolas Vallée</title>
-        <link rel='icon' href='/favicon.ico' />
+        <meta
+          name='description'
+          content='Hire a self-taught Web Developer specialized in React and skilled in HTML, CSS, JavaScript, Redux, Next, Gatsby, Node.js, MongoDB.'
+        />
       </Head>
       <Header>My Projects</Header>
       <ProjectsPage />
