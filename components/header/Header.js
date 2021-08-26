@@ -57,6 +57,7 @@ const Header = (props) => {
             toggle={setOpen}
             rounded
             color='#f9fcff'
+            label='Toggle main navigation menu'
           />
         </div>
         <div className={styles.avatarContainer}>
