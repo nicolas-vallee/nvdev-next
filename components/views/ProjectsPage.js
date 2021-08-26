@@ -48,6 +48,7 @@ const ProjectsPage = () => {
         >
           <MockupMacbook
             src='/images/Screenshot CRWN Clothing.jpg'
+            alt='Next.js e-commerce project with React Hooks and Redux Toolkit.'
             screenshot
           />
         </VisualContent>
@@ -92,7 +93,11 @@ const ProjectsPage = () => {
           visualLeft
           caption={`E-commerce app built from scratch with the MERN stack.`}
         >
-          <MockupMacbook src='/images/Screenshot ProShop.jpg' screenshot />
+          <MockupMacbook
+            src='/images/Screenshot ProShop.jpg'
+            alt='E-commerce app with React, Node.js, Express, MongoDB.'
+            screenshot
+          />
         </VisualContent>
       </PageSection>
 
@@ -134,7 +139,11 @@ const ProjectsPage = () => {
           visualLeft
           caption={`Design inspired by the popular Extra theme.`}
         >
-          <MockupMacbook src='/images/Screenshot Gatsby Blog.jpg' screenshot />
+          <MockupMacbook
+            src='/images/Screenshot Gatsby Blog.jpg'
+            alt='Gatsby blog from Markdown files.'
+            screenshot
+          />
         </VisualContent>
       </PageSection>
 
@@ -179,6 +188,7 @@ const ProjectsPage = () => {
         >
           <MockupMacbook
             src='/images/Screenshot React Palette.jpg'
+            alt='A colorful React app with Material UI.'
             screenshot
           />
         </VisualContent>
@@ -221,6 +231,7 @@ const ProjectsPage = () => {
         >
           <MockupMacbook
             src='/images/Screenshot Clear View Escapes.jpg'
+            alt='Static HTML website built with WebPack and a modern front end development workflow.'
             screenshot
           />
         </VisualContent>
@@ -265,7 +276,11 @@ const ProjectsPage = () => {
           visualLeft
           caption={`Booking website for a travel agency.`}
         >
-          <MockupMacbook src='/images/Screenshot Natours.jpg' screenshot />
+          <MockupMacbook
+            src='/images/Screenshot Natours.jpg'
+            alt='A Node.js backend with automated email sending and payment processing.'
+            screenshot
+          />
         </VisualContent>
       </PageSection>
       <PageSection>
@@ -310,6 +325,7 @@ const ProjectsPage = () => {
         >
           <MockupMacbook
             src='/images/Screenshot Mountain Travel.jpg'
+            alt='Static HTML website built with WebPack and PostCSS.'
             screenshot
           />
         </VisualContent>
